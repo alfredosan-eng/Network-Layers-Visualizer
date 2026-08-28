@@ -1,3 +1,10 @@
+🌐 Interactive Network Learning Lab
+
+<p align="center">
+  <a href="https://alfredosan-eng.github.io/Network-Layers-Visualizer-English-Version/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀%20OPEN%20NETWORK%20LAB-222222?style=for-the-badge" alt="Open Network Layers Visualizer">
+  </a>
+</p>
 # Network Layers Visualizer — English Version
 
 **Network Layers Visualizer** is an educational and interactive web application designed to help users understand how network communication works across multiple levels: layered models, encapsulation, Ethernet, protocols, addressing, switching, routing, and encoding.
