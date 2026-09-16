@@ -147,15 +147,15 @@ function renderLearn(){
       ['Data',0,0,'payload','Optional data used to test size and content.','Source host','Destination host']
     ]},
     arp:{title:'ARP',layer:'2 — Data Link / Layer 3 support',pdu:'ARP message',color:'#ff6d00',intro:'ARP resolves an IPv4 address to a MAC address on the local LAN. The request is usually broadcast; the reply is usually unicast.',fields:[
-      ['HTYPE',16,2,'1','Hardware type; Ethernet is 1.','Host','Host'],
-      ['PTYPE',16,2,'0x0800','Protocol type; IPv4.','Host','Host'],
-      ['HLEN',8,1,'6','Length of the hardware MAC address.','Host','Host'],
-      ['PLEN',8,1,'4','Length of the IPv4 protocol address.','Host','Host'],
-      ['OPER',16,2,'1 request / 2 reply','Indicates an ARP request or reply.','Host','Host'],
-      ['SHA',48,6,'11:22:33:44:55:66','MAC address of the ARP sender.','Host','Host'],
-      ['SPA',32,4,'192.168.1.10','IPv4 address of the ARP sender.','Host','Host'],
-      ['THA',48,6,'00:00:00:00:00:00','Target MAC address; it may be unknown in a request.','Host','Host'],
-      ['TPA',32,4,'192.168.1.1','IPv4 address whose MAC is being resolved.','Host','Host']
+      ['HTYPE — Hardware Type',16,2,'1','Hardware type; Ethernet is 1.','Host','Host'],
+      ['PTYPE — Protocol Type',16,2,'0x0800','Protocol type; IPv4.','Host','Host'],
+      ['HLEN — Hardware Address Length',8,1,'6','Length of the hardware MAC address.','Host','Host'],
+      ['PLEN — Protocol Address Length',8,1,'4','Length of the IPv4 protocol address.','Host','Host'],
+      ['OPER — Operation',16,2,'1 request / 2 reply','Indicates an ARP request or reply.','Host','Host'],
+      ['SHA — Sender Hardware Address',48,6,'11:22:33:44:55:66','MAC address of the ARP sender.','Host','Host'],
+      ['SPA — Sender Protocol Address',32,4,'192.168.1.10','IPv4 address of the ARP sender.','Host','Host'],
+      ['THA — Target Hardware Address',48,6,'00:00:00:00:00:00','Target MAC address; it may be unknown in a request.','Host','Host'],
+      ['TPA — Target Protocol Address',32,4,'192.168.1.1','IPv4 address whose MAC is being resolved.','Host','Host']
     ]}
   };
 
